@@ -42,7 +42,7 @@ const About: React.FC = () => {
           <div className="relative order-2 lg:order-1">
             <div className="aspect-square rounded-2xl bg-gradient-to-br from-teal-100 to-blue-100 p-6 sm:p-8 flex items-center justify-center">
               <img
-                src={`${import.meta.env.BASE_URL}profile.png`}
+                src={`${import.meta.env.BASE_URL}profile.jpg`}
                 alt="Professional headshot"
                 className="w-full h-full object-cover rounded-xl shadow-lg"
               />
