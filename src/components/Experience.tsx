@@ -109,7 +109,7 @@ const Experience: React.FC = () => {
             </a>
 
               <a
-                href="/resume.pdf"
+                href={`${import.meta.env.BASE_URL}resume.pdf`}
               download
                 className="px-4 sm:px-6"
               >
